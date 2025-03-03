@@ -10,9 +10,9 @@ public class ContaTerminal {
     System.out.print("Por favor, digite o número da Agência !");
     numero = sc.nextInt();
      System.out.print("Por favor, digite o nome da Agência !");
-    Agencia = sc.nextLine();
+    Agencia = sc.next();
     System.out.print("Nome do Cliente");
-    NomeCliente = sc.nextLine();
+    NomeCliente = sc.next();
     System.out.print("Saldo");
     saldo = sc.nextDouble();
    
